@@ -86,6 +86,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*
+*
+*  Custom fonts
+*
+*/
+
+
+@font-face {
+  font-family: "Messapia";
+  src: url("/assets/fonts/Messapia-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Coconat";
+  src: url("/assets/fonts/Coconat-Demi.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*
  * Masthead
@@ -103,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-family: "Coconat";
 }
 .masthead-title a {
   color: #505050;
@@ -312,6 +334,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
+  font-family: "Coconat";
 }
 .page-title,
 .post-title {
@@ -319,12 +342,16 @@ a.sidebar-nav-item:focus {
 }
 
 /* Meta data line below post title */
-.post-date {
-  display: block;
-  margin-top: -.5rem;
+.byline-box{
+  margin-top: 1rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
 }
+
 
 /* Related posts */
 .related {
@@ -488,12 +515,11 @@ a.pagination-item:hover {
 .theme-base-0c .sidebar,
 .theme-base-0c .sidebar-toggle:active,
 .theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #75b5aa;
+  background-color: #79ada4;
 }
-.theme-base-0c .container a,
 .theme-base-0c .sidebar-toggle,
 .theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
+  color: #79ada4;
 }
 
 /* Blue */
