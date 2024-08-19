@@ -3,7 +3,7 @@ title:               Idle Words
 tagline:             'Thoughts on research, life, etc'
 description:         ''
 url:                 http://nightingal3.github.io
-baseurl:             '/blog-theme'
+baseurl:             '/blog'
 paginate:            5
 permalink:           pretty
 
