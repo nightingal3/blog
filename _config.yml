@@ -2,8 +2,8 @@
 title:               Idle Words
 tagline:             'Thoughts on research, life, etc'
 description:         ''
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+url:                 http://nightingal3.github.io
+baseurl:             '/blog-theme'
 paginate:            5
 permalink:           pretty
 
