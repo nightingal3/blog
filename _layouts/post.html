@@ -4,6 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  <h2 class="post-subtitle">{{ page.subtitle }}</h2>
   <span class="byline-box">
     <span class="post-date">{{ page.date | date_to_string }}</span>
     <span class="bullet">&bull;</span>
@@ -12,6 +13,15 @@ layout: default
 
   {{ content }}
 </div>
+
+<br />
+
+<div class=""subscribe-box>
+  <p class="subscribe-text">Hear about new posts when they happen!</p>
+  {% include subscribe.html %} 
+</div>
+
+<br />
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">
