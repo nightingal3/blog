@@ -1,15 +1,25 @@
-title:     Idle Words
-tagline:   'Thoughts on research, life, etc'
-url:       https://nightingal3.github.io
-baseurl:   '/blog'
+# Setup
+title:               Idle Words
+tagline:             'Thoughts on research, life, etc'
+description:         ''
+url:                 http://nightingal3.github.io
+baseurl:             '/blog'
+paginate:            5
+permalink:           pretty
 
+# About/contact
 author:
-  name:  Emmy Liu
-  url:   https://twitter.com/_emliu
-  email: emmy.liu.1998@gmail.com
+  name:              Emmy Liu
+  url:               https://twitter.com/_emliu
+  email:             emmy.liu.1998@gmail.com
 
+# Gems
 plugins:
   - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
 
 markdown: kramdown
 kramdown:
