@@ -3,14 +3,14 @@ layout: post
 title: The Promises and Pitfalls of AI Scientists
 ---
 
-Recently, I saw news that an AI-agent generated [paper]() was accepted to an ICLR workshop. I've been interested in this topic for a while, and some masters students I'm working with are currently building a benchmark for end-to-end scientific reasoning in LMs (from idea generation to coding/execution), so I was curious to read the paper. I'm not actually skeptical that LM-based agents can eventually automate parts of research or serve as assistants in many aspects of research. In fact, I often ask LLMs to fetch literature related to research ideas, draw plots, critique ideas, and more. If you haven't tried this yet, you should! Sometimes it's not very helpful, but the LMs tend to call every idea you pitch brilliant and innovative, which is very good for building confidence. I explain this to say that I wasn't looking for flaws at all, and was rather thinking about how this particular system could be benchmarked.
+Recently, I saw news that an AI-agent generated [paper](https://sakana.ai/ai-scientist/) was accepted to an ICLR workshop. I've been interested in this topic for a while, and some masters students I'm working with are currently building a benchmark for end-to-end scientific reasoning in LMs (from idea generation to coding/execution), so I was curious to read the paper. I'm not actually skeptical that LM-based agents can eventually automate parts of research or serve as assistants in many aspects of research. In fact, I often ask LLMs to fetch literature related to research ideas, draw plots, critique ideas, and more. If you haven't tried this yet, you should! Sometimes it's not very helpful, but the LMs tend to call every idea you pitch brilliant and innovative, which is very good for building confidence. I explain this to say that I wasn't looking for flaws at all, and was rather thinking about how this particular system could be benchmarked.
 
 The issue is: the paper is completely terrible. It's actually quite impressive how bad it is given the strict page limit, as it manages to be bad in multiple different and conflicting ways even within 5 pages. This is the type of paper I wish I got more of as a reviewer -- in the sense that it's more fun to write 1-star or 5-star ratings compared to 3-star ratings. I've attached the annotated version to this post, but I'll just review a few of the major problems here:
 
 
 ### Critiquing the paper (or: the fastest review I've ever written)
 
-Attached is a PDF of comments: I review papers in exactly the same way (though I spend much more time and leave more comments for real papers).
+Attached is a PDF of comments: I review papers in exactly the same way (though I spend much more time and leave more comments for real papers). The comments in red are from Sakana AI, while the little speech bubbles (mouseover) are my comments.
 
 <div style="width:100%;height:600px;border:1px solid #ccc;margin:1em 0;">
   <iframe
@@ -41,6 +41,6 @@ There's no clear solution to this, and I don't see the peer review situation get
 
 Ironically, LLM reviewers might actually be above average human level, but for the wrong reasons. Not to say that we should just replace reviewers with LLMs either, that would be a bit too dystopian for now.
 
-Until models can actually conduct end-to-end science themselves and trigger [paradigm shifts](), I worry about the spam they'll release on a human audience. Human reviewers are already overloaded with human-written papers, they don't have the capacity to review random 5-10 page documents generated en masse by people just wanting to attach their names to a publication. I've seen similar spam from people using LLMs to generate books, but at least these books aren't forced on readers.
+Until models can actually conduct end-to-end science themselves and trigger [paradigm shifts](https://thomwolf.io/blog/scientific-ai.html), I worry about the spam they'll release on a human audience. Human reviewers are already overloaded with human-written papers, they don't have the capacity to review random 5-10 page documents generated en masse by people just wanting to attach their names to a publication. I've seen similar spam from people using LLMs to generate books, but at least these books aren't forced on readers.
 
 I do think that LMs have a lot of headway to help us in solving scientific problems, and I already use them to help me with many tasks. However, there's definitely going to be a huge adjustment period until then, and scaling up reviewer count and quality (or creating really good AI reviewers before AI scientists) is going to be a major challenge.
