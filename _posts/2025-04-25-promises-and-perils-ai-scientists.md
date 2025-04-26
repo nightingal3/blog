@@ -10,7 +10,7 @@ The issue is: the paper is completely terrible. It's actually quite impressive h
 
 ### Critiquing the paper (or: the fastest review I've ever written)
 
-Attached is a PDF of comments: I review papers in exactly the same way (though I spend much more time and leave more comments for real papers).
+Attached is a PDF of comments: I review papers in exactly the same way (though I spend much more time and leave more comments for real papers). The comments in red are from Sakana AI, while the little speech bubbles (mouseover) are my comments.
 
 <div style="width:100%;height:600px;border:1px solid #ccc;margin:1em 0;">
   <iframe
