@@ -582,3 +582,13 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/* Subscribe form overrides */
+#mc_embed_signup,
+#mc_embed_signup label,
+#mc_embed_signup h2,
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup input,
+#mc_embed_signup .button {
+  font-family: inherit;
+}
