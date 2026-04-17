@@ -48,10 +48,10 @@ Of these two, I generally think that **HPC allocations** are more worth pursuing
 - **[Google Cloud Research Credits](https://edu.google.com/programs/credits/research/)** 
   — Note that this is separate from the above. This has rolling applications and low friction. Up to 5k for faculty/postdocs, 1k for PhD students. Covers GPUs and TPUs on GCP.
 
-- **[AWS Research Credits](https://aws.amazon.com/government-education/research-and-technical-computing/research-credits/)** 
+- **[AWS Research Credits](https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/)** 
 — Application-based cloud credits. More involved process than Lambda.
 
-- **[Microsoft Azure Research Credits](https://www.microsoft.com/en-us/research/collaboration/research-credits/)** 
+- **[Microsoft Azure Research Credits](https://www.microsoft.com/en-us/azure-academic-research/)** 
   — Similar to AWS/GCP credits, proof-of-concept focused. Also contributes 
   resources through NAIRR so there's some overlap if you're applying there too.
 
