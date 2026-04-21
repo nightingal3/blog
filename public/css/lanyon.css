@@ -584,11 +584,10 @@ a.pagination-item:hover {
 }
 
 /* Subscribe form overrides */
-#mc_embed_signup,
-#mc_embed_signup label,
-#mc_embed_signup h2,
-#mc_embed_signup .mc-field-group,
-#mc_embed_signup input,
-#mc_embed_signup .button {
+#subscribe-form,
+#subscribe-form label,
+#subscribe-form h2,
+#subscribe-form input,
+#subscribe-form button {
   font-family: inherit;
 }
