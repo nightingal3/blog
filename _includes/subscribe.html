@@ -55,10 +55,12 @@
   }
 </style>
 <div id="subscribe-form">
-  <form id="fs-subscribe-form" action="https://buttondown.com/api/emails/embed-subscribe/nightingal3" method="POST">
+  <form id="fs-subscribe-form" action="https://formspree.io/f/mreryzod" method="POST">
     <h2>Hear about new posts</h2>
     <label for="fs-email">Email Address</label>
     <input type="email" id="fs-email" name="email" placeholder="you@example.com" required>
+    <!-- honeypot -->
+    <input type="text" name="_gotcha" style="display:none">
     <button type="submit">Subscribe</button>
   </form>
   <p id="subscribe-msg" style="display:none"></p>
@@ -70,13 +72,11 @@
     if (!form) return;
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var data = new URLSearchParams();
-      data.append('email', form.querySelector('input[type="email"]').value);
-      data.append('embed', '1');
+      var data = new FormData(form);
       fetch(form.action, {
         method: 'POST',
         body: data,
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+        headers: { 'Accept': 'application/json' }
       }).then(function (res) {
         if (res.ok) {
           form.style.display = 'none';
