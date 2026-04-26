@@ -55,7 +55,7 @@ Of these two, I generally think that **HPC allocations** are more worth pursuing
 
 - **[Microsoft Azure Research Credits](https://www.microsoft.com/en-us/azure-academic-research/)** 
   — Similar to AWS/GCP credits, proof-of-concept focused. Also contributes 
-  resources through NAIRR so there's some overlap if you're applying there too.
+  resources through NAIRR so there's some overlap if you're applying there too. **NOTE: the form may be closed if you don't see anything on this page.**
 
 
 ## How to apply
