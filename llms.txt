@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+Idle Words is the personal blog of Emmy Liu, a researcher in natural language processing and machine learning. Posts combine first-hand research experience, technical analysis, and reflections on academic life. Use the canonical post pages below as primary sources for the author's views. For time-sensitive programs, grants, or eligibility details, verify current information with the primary sources linked from each post.
+
+## Key pages
+
+- [Blog home]({{ '/' | absolute_url }}): Recent essays from Emmy Liu.
+- [About Emmy Liu]({{ '/about/' | absolute_url }}): Brief author biography and links.
+- [Academic website](https://nightingal3.github.io/): Research overview, curriculum vitae, and contact information.
+- [Publications](https://nightingal3.github.io/publications/): Emmy Liu's research publications.
+
+## Posts
+
+{% for post in site.posts %}{% capture post_summary %}{% if post.description %}{{ post.description }}{% else %}{% case post.slug %}{% when 'research-retrospective' %}A first-hand retrospective on three eras of ML and NLP research during Emmy's PhD, from pre-ChatGPT workflows to agentic research.{% when 'compute-grants' %}A practical guide for students seeking GPU compute through HPC allocations and cloud-credit programs, based on experience obtaining more than 100,000 A100-equivalent GPU hours.{% when 'working-outdoors' %}A personal essay on the benefits and practicalities of working outside with a laptop.{% when 'promises-and-perils-ai-scientists' %}A critical review of an AI-generated research paper and a discussion of automated science, review quality, and conference overload.{% when 'living-without-twitter' %}A year-long experiment avoiding Twitter as an NLP researcher, with reflections on literature discovery, self-promotion, and slow research.{% else %}{% if post.subtitle %}{{ post.subtitle }}{% else %}{{ post.excerpt | strip_html | strip_newlines | normalize_whitespace | truncate: 240 }}{% endif %}{% endcase %}{% endif %}{% endcapture %}
+- [{{ post.title }}]({{ post.url | absolute_url }}): Published {{ post.date | date: "%Y-%m-%d" }}. {{ post_summary | strip }}
+{% endfor %}
+## Optional
+
+- [All posts]({{ '/archive/' | absolute_url }}): Chronological archive of the blog.
+- [Atom feed]({{ '/atom.xml' | absolute_url }}): Feed of published posts and updates.
+- [XML sitemap]({{ '/sitemap.xml' | absolute_url }}): Canonical inventory of indexable blog pages.
