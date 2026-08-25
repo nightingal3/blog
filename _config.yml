@@ -3,6 +3,7 @@ title:               Idle Words
 tagline:             'Thoughts on research, life, etc'
 description:         ''
 seo_description:     'Essays by Emmy Liu on AI and NLP research, research automation, academia, and life.'
+social_image:        '/assets/images/social-card.png'
 url:                 https://nightingal3.github.io
 baseurl:             '/blog'
 paginate:            5

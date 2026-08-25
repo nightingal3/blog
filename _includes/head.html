@@ -20,21 +20,29 @@
   {% else %}
     {% assign meta_title = page.title | default: site.title %}
   {% endif %}
+  {% assign social_image = page.image | default: site.social_image | absolute_url %}
   <meta name="description" content="{{ meta_description | escape }}">
+  <meta name="application-name" content="{{ site.title | escape }}">
 
   <meta property="og:title" content="{{ meta_title | escape }}">
   <meta property="og:description" content="{{ meta_description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title | escape }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:image" content="{{ social_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A cyan rosette emblem on a warm ivory background">
   {% if page.layout == 'post' %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   <meta property="article:modified_time" content="{% if page.updated %}{{ page.updated | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}">
   {% endif %}
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ meta_title | escape }}">
   <meta name="twitter:description" content="{{ meta_description | escape }}">
+  <meta name="twitter:image" content="{{ social_image }}">
+  <meta name="twitter:image:alt" content="A cyan rosette emblem on a warm ivory background">
 
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -49,6 +57,7 @@
     "@type": "BlogPosting",
     "headline": {{ page.title | jsonify }},
     "description": {{ meta_description | jsonify }},
+    "image": {{ social_image | jsonify }},
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
     "dateModified": {% if page.updated %}{{ page.updated | date_to_xmlschema | jsonify }}{% else %}{{ page.date | date_to_xmlschema | jsonify }}{% endif %},
     "url": {{ page.url | absolute_url | jsonify }},
@@ -92,6 +101,7 @@
     "@type": "WebSite",
     "name": {{ site.title | jsonify }},
     "description": {{ site.seo_description | jsonify }},
+    "image": {{ social_image | jsonify }},
     "url": {{ '/' | absolute_url | jsonify }},
     "publisher": {
       "@type": "Person",
@@ -108,8 +118,9 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
-  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ '/public/favicon-96x96.png' | absolute_url }}">
+  <link rel="icon" href="{{ '/public/favicon.ico' | absolute_url }}" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
 
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom feed" href="{{ '/atom.xml' | absolute_url }}">
 
