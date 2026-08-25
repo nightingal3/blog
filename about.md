@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "About Emmy Liu, a researcher in natural language processing and machine learning."
 ---
 
 <!-- <p class="message">

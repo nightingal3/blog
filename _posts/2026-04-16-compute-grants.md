@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to apply for and get compute grants (for students)"
+description: "A practical guide for students seeking GPU compute through HPC allocations and cloud-credit programs."
 ---
 
 

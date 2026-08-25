@@ -1,6 +1,7 @@
 ---
 layout: post
 title: I'm an NLP Researcher. I didn't check Twitter for a year. It was fine.
+description: "A year-long experiment avoiding Twitter as an NLP researcher, with reflections on literature discovery, self-promotion, and slow research."
 ---
 
 (Before anyone who knows me says "wait a minute, I've seen you post things on Twitter!", I have occasionally posted and reposted papers for work reasons more or less, but for more or less a year, I haven't opened Twitter to browse through new posts at all. This is what I mean by "I didn't check Twitter for a year".)

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Promises and Pitfalls of AI Scientists
+description: "A critical review of an AI-generated research paper and a discussion of automated science, review quality, and conference overload."
 ---
 
 Recently, I saw news that an AI-agent generated [paper](https://sakana.ai/ai-scientist/) was accepted to an ICLR workshop. I've been interested in this topic for a while, and some masters students I'm working with are currently building a benchmark for end-to-end scientific reasoning in LMs (from idea generation to coding/execution), so I was curious to read the paper. I'm not actually skeptical that LM-based agents can eventually automate parts of research or serve as assistants in many aspects of research. In fact, I often ask LLMs to fetch literature related to research ideas, draw plots, critique ideas, and more. If you haven't tried this yet, you should! Sometimes it's not very helpful, but the LMs tend to call every idea you pitch brilliant and innovative, which is very good for building confidence (NOTE: this is not referring to gpt-4o's recent update, which verges into sycophantic). I explain this to say that I wasn't looking for flaws at all, and was rather thinking about how this particular system could be benchmarked.

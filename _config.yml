@@ -1,7 +1,8 @@
 # Setup
 title:               Idle Words
 tagline:             'Thoughts on research, life, etc'
-description:         'Essays by Emmy Liu on AI and NLP research, research automation, academia, and life.'
+description:         ''
+seo_description:     'Essays by Emmy Liu on AI and NLP research, research automation, academia, and life.'
 url:                 https://nightingal3.github.io
 baseurl:             '/blog'
 paginate:            5
@@ -18,7 +19,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.2.0
+version:             1.2.1
 google_analytics_id: #UA-XXXX-Y
 
 markdown: kramdown

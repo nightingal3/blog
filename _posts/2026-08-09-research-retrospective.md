@@ -2,6 +2,7 @@
 layout: post
 title: "When We Did Research By Hand"
 subtitle: "How ML/NLP Research Changed in the Course of My PhD"
+description: "A first-hand retrospective on three eras of ML and NLP research, from pre-ChatGPT workflows to agentic research."
 ---
 
 

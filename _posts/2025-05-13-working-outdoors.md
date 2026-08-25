@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Underrated life hack: working outdoors"
+description: "A personal essay on the benefits and practicalities of working outside with a laptop."
 ---
 
 
