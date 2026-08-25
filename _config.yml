@@ -1,8 +1,8 @@
 # Setup
 title:               Idle Words
 tagline:             'Thoughts on research, life, etc'
-description:         ''
-url:                 http://nightingal3.github.io
+description:         'Essays by Emmy Liu on AI and NLP research, research automation, academia, and life.'
+url:                 https://nightingal3.github.io
 baseurl:             '/blog'
 paginate:            5
 permalink:           pretty
