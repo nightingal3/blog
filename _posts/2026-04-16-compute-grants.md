@@ -23,11 +23,11 @@ Of these two, I generally think that **HPC allocations** are more worth pursuing
 
 ## Recommended grants
 
-Bracketed labels indicate the applicant country or region, rather than the provider's headquarters. International programmes may still restrict eligible countries.
+Note that bracketed labels indicate the applicant country or region, rather than the provider's headquarters. Please let me know if any of the information below is incorrect through email.
 
 ### HPC Allocations
 
-**Note**: For the US programmes below, international students at US institutions can also apply (I am an international student). International collaborators are also allowed as far as I can tell, as long as the submitter is at a US institution. For all programmes, check the institutional and project-lead requirements; students may need a supervisor to apply.
+**Note**: For the US programmes below, international students at US institutions can also apply (I am an international student). International collaborators are also allowed as far as I can tell, as long as the submitter is at a US institution.
 
 - **[US] [NSF ACCESS](https://allocations.access-ci.org/)** ⭐ — I consider this to be the best place to start and most worth it for PhD students.
   There are four tiers of increasing scale and effort: 
